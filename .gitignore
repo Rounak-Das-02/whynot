@@ -1,6 +1,4 @@
 *.lock
 node_modules
 package-json.lock
-themes/novela
-themes/touchy
 public
