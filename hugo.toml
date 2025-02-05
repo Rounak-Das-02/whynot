@@ -5,7 +5,7 @@ theme = "simplish"
 summaryLength = 50
 
 [pagination]
-pagerSize = 6  # Change this to the number of posts per page
+  pagerSize = 6  # Number of posts per page
 
 [params]
   description = "A blog about travel, tech, food, and life."
@@ -13,9 +13,11 @@ pagerSize = 6  # Change this to the number of posts per page
 
 canonifyURLs = true
 
-module:
-  mounts:
-  - source: assets
-    target: assets
-  - source: static
-    target: assets
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+  [[module.mounts]]
+    source = "static"
+    target = "assets"
