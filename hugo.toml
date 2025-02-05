@@ -10,3 +10,5 @@ pagerSize = 6  # Change this to the number of posts per page
 [params]
   description = "A blog about travel, tech, food, and life."
   year = 2025
+
+canonifyURLs = true
