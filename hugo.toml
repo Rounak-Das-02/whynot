@@ -7,6 +7,9 @@ summaryLength = 50
 [pagination]
   pagerSize = 6  # Number of posts per page
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   description = "A blog about travel, tech, food, and life."
   year = 2025
@@ -21,3 +24,4 @@ canonifyURLs = true
   [[module.mounts]]
     source = "static"
     target = "assets"
+
